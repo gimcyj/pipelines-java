@@ -47,5 +47,31 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+<repositories>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+  <id>dev-azure-com-gimcyjohnb-azuredevops1</id>
+  <url>https://pkgs.dev.azure.com/gimcyjohnb/_packaging/AzureDevops1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+   </repositories>
+   <distributionManagement>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+  <id>dev-azure-com-gimcyjohnb-azuredevops1</id>
+  <url>https://pkgs.dev.azure.com/gimcyjohnb/_packaging/AzureDevops1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+   </distributionManagement>
 	
 </project>
